@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+header {
+    width: 840px;
+    height: 300px;
+    background-image: url(images/Screen%20Shot%202023-02-24%20at%2011.35.39%20AM.png);
+    background-size: cover;
+}
+ #container {
+    /*float: none;
+    font-size: 25px;
+    margin: auto;
+    padding: auto;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; */
+
+	width: 840px;
+	height: auto;
+    margin: auto;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+
+}
+
+
+h1 {
+    color: #186B0E;
+}
+main {
+    width: 600px;
+    height: 1500px;
+    background-color: #ECFEEB;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+aside {
+    width: 200px;
+    height: 1500px;
+    float: left;
+    background-color: #87A26F;
+    padding-top: 10px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+footer {
+    background-color: #87A26F;
+    clear: both;
+    width: 840px;
+    height: 30px;
+}
+nav {
+    width: 840px;
+    height: 90px;
+    background-color: #87A26D;
+    padding-top: 20px;
+    list-style-type: square;
+}
+
+nav a:link {
+    color: #C5E083;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #ECFEEB;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #A5C187;
+}
+
+h3 {
+    text-indent: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+body {
+    background-size: cover;
+    background-image: url(images/gb2.jpeg);
+}
+img {
+    float: right;
+}
+main form .submit_btn {
+    background-color: #FFDD00;
+}
+nav li {
+    width: 200px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: large;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 25px 5px #605F5F;
+    box-shadow: 6px 6px 25px 5px #605F5F;
+	
+}
+
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
